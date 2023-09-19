@@ -1,1 +1,1 @@
-# EarthTelekomünikasyon
+# Earth
