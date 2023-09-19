@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <!--[if IEMobile 7]><html class="no-js iem7 oldie"><![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="tr"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="tr"><![endif]-->
-<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="tr"><![endif]-->
-<!--[if (IE 10)&!(IEMobile)]><html class="ie10" lang="tr"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if (IE 9)&!(IEMobile)]><html class="no-js ie9" lang="en"><![endif]-->
+<!--[if (IE 10)&!(IEMobile)]><html class="ie10" lang="en"><![endif]-->
 <!--[if (gt IE 10)|(gt IEMobile 7)]><!--><html lang="tr-TR"><!--<![endif]-->
 
 <head>
@@ -77,55 +78,40 @@
 			<div class="container">
 				<button type="button" id="navbar-toggle" class="navbar-toggle"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 				<a href="https://www.earth.com.tr" class="header-brand"> 
-					<img src="img/earthlogo.png" alt="Earth Telekom" class="mlogo"/>
+					<img src="img/earth-logo.png" alt="Earth Telekom" class="mlogo"/>
 				</a>
 				<a href="cart.php" class="header-cart"><i class="icon-shopping-cart"></i></a>
 			</div>
 		</div>
 		<div class="page-header scroll-nav">
-			<div class="container"><a href="https://www.earth.com.tr/" class="header-brand"> <img class="dlogo" src="img/earthlogo.png" alt="e-Dedicated"/></a>
+			<div class="container"><a href="https://www.earth.com.tr/" class="header-brand"> <img class="dlogo" src="img/earth-logo.png" alt="e-Dedicated"/></a>
 				<ul class="header-navigation">
-					<li class="dropdown dropdown-full">
-						<a href="#">HİZMETLER</a>
-							<div class="dropdown-menu">
-								<div class="dropdown-col col-sm-3 col-md-3">
-									<h6>CLOUD SERVİSLER</h6>
-										<ul>
-											<li><a href="iaas">Cloud Server (IAAS)</a></li>
-											<li><a href="daas">Cloud Desktop (DAAS)</a></li>
-											<li><a href="draas">Cloud Disaster Recovery (DRAAS)</a></li>
-											<li><a href="vpnaas">Cloud VPN (VPNAAS)</a></li>
-											<li><a href="xaas">All Cloud Service (XAAS)</a></li>
-										</ul>
-									<i class="icon-server-cloud"></i> 
-								</div>
-								<div class="dropdown-col col-sm-3 col-md-3">
-									<h6>Cluster Server</h6>
-										<ul>
-											<li><a href="base-cluster">Base Cluster</a></li>
-											<li><a href="dedicated-cluster">Dedicated Cluster</a></li>
-										</ul>
-									<i class="icon-computer"></i> 
-								</div>
-								<div class="dropdown-col col-sm-3 col-md-3">
-									<h6>Dedicated Server</h6>
-										<ul>
-											<li><a href="hybrid-dedicated">Hybrid Dedicated</a></li>
-											<li><a href="dedicated-server">Dedicated Server</a></li>
-											<li><a href="kurumsal-dedicated">Kurumsal Dedicated</a></li>
-										</ul>
-									<i class="icon-admin-server"></i> 
-								</div>
-								<div class="dropdown-col col-sm-3 col-md-3">
-									<h6>Co-Location</h6>
-										<ul>
-											<li><a href="sunucu-barindirma">Sunucu Barındırma</a></li>
-											<li><a href="kabinet-kiralama">Kabinet Kiralama</a></li>
-										</ul>
-									<i class="icon-server"></i> 
-								</div>
-							</div>
+					<li class="dropdown"> 
+							<a href="#">Veri Merkezi</a>
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="kabinet-kiralama">Kabinet Kiralama</a></li>
+								<li><a href="sunucu-barindirma">Sunucu Barındırma</a></li>
+								<li><a href="dedicated-server">Dedicated Server</a></li>
+								<li><a href="dedicated-cluster">Dedicated Cluster</a></li>
+								<li><a href="draas">Felaket Kurtarma</a></li>
+								
+							</ul>
+						</div>
 					</li>
+					<li class="dropdown"> 
+							<a href="#">Bulut Sunucu</a>
+						<div class="dropdown-menu">
+							<ul>
+								<li><a href="iaas">Cloud Server (IAAS)</a></li>
+								<li><a href="daas">Cloud Desktop (DAAS)</a></li>
+								<li><a href="draas">Cloud Disaster Recovery (DRAAS)</a></li>
+								<li><a href="vpnaas">Cloud VPN (VPNAAS)</a></li>
+								<li><a href="xaas">All Cloud Service (XAAS)</a></li>
+							</ul>
+						</div>
+					</li>
+					
 					<li class="dropdown"> 
 							<a href="#">SERVİSLER</a>
 						<div class="dropdown-menu">
@@ -155,8 +141,11 @@
 							<a href="#">ÇÖZÜMLER</a>
 						<div class="dropdown-menu">
 							<ul>
-								<li><a href="#">Hizmet Kapsamı</a></li>
-								<li><a href="#">Hizmet Şartları</a></li>
+								<li><a href="#">Hotspot ve 5651 Loglama</a></li>
+								<li><a href="#">Yedekleme Çözümleri</a></li>
+								<li><a href="#">Outsource Yönetim</a></li>
+								<li><a href="#">Donanım Çözümleri</a></li>
+								<li><a href="#">Sistem Odası Çözümleri</a></li>
 							</ul>
 						</div>
 					</li>
@@ -167,11 +156,21 @@
 								<li><a href="hakkimizda">Hakkımızda</a></li>
 								<li><a href="hesap-numaralari">Hesap Numaraları</a></li>
 								<li><a href="hizmet-sozlesmeleri">Hizmet Sözleşmeleri</a></li>
-								<li><a href="verimerkezleri">Veri Merkezleri</a></li>        
+								<li><a href="verimerkezleri">Veri Merkezleri</a></li> 
+								<li><a href="#">Sertifikalarımız</a></li>
+								<li><a href="#">İş Ortaklığı</a></li>
+								<li><a href="#">Kariyer</a></li>
+								<li><a href="iletisim">İletişim</a></li>
+								
 							</ul>
 						</div>
 					</li>
+					<li class="dropdown"> 
+							<a style="color:#e9cc54" href="#">BLOG</a>
+						
+					</li>
 					<li class="menu-login"> <a href="https://panel.earth.com.tr/login" class="btn btn-green">GİRİŞ</a></li>
+					
 				</ul>
 			</div>
         </div><div id="page-wrapper" class="page-wrapper">
@@ -356,40 +355,90 @@
 						<p class="desc">Kurumunuzun teknoloji ihtiyaçlarını karşılamak için yatırım yapmak zorunda
 							değilsiniz. İhtiyaçlarınız doğrultusunda uzman ekip ve ekipmanlarımızla size özel çözümler
 							üretebiliriz. İhtiyaç duyabileceğiniz tüm veri merkezi hizmetleri Ankara Lokasyonlu veri
-							merkezi üzerinden 1 Gbps portlar ile sağlanmakta ve %99.9 Uptime ile servis edilmektedir</p>
-
+							merkezi üzerinden 1 Gbps portlar ile sağlanmakta ve %99.9 Uptime ile servis edilmektedir</p>
 					</div>
 				</div>
-				<div class="row" style="padding-top: 20px;">
-					<div class="col-md-6 col-xs-6 col-xxs-12">
-						<a href="iaas" class="block block-service block-server">
-							<h2>Cloud Servis Altyapısı</h2>
-							<ul class="block-list list-checked list-default">
-								<li>Yeni nesil Dell PowerEdge sunucular</li>
-								<li>EMC VNX Flash & Hybrid storage</li>
-								<li>EMC DataDomain Backup storage</li>
-								<li>Uçtan uca 10 Gbps fiber network</li>
-								<li>Failover Active/Active internet erişimi</li>
-							</ul>
-							<div class="block-link btn-with-arrow"><span>Detayları İncele!</span><i
-									class="icon-circle-right"></i></div>
-							<div class="block-image animate fadeInRight"></div>
-						</a>
+			</div>
+		</div>
+		
+		<div class="page-section section-center">
+			<div class="container">
+				<h2 class="section-title">Genel Altyapı Özellikleri</h2>
+				<div class="row pdt-20 mb-40">
+					<div class="col-sm-4">
+						<ul class="list-checked list-default">
+							<li>Yeni Nesil Kurumsal Node Sunucular</li>
+							<li>Intel Xeon E7 ve E5 işlemciler</li>
+							<li>Yüksek erişilebilir HA altyapı</li>
+							<li>2N+2 internet, 2N+2 san network </li>
+						</ul>
 					</div>
-					<div class="col-md-6 col-xs-6 col-xxs-12">
-						<a href="sunucu-barindirma" class="block block-service block-cloud">
-							<h2>Co-Location Hizmeti</h2>
-							<ul class="block-list list-checked list-default">
-								<li>Leed Gold ve Tier III Sertifikasyonu</li>
-								<li>IP/BGP failover network kurgusu</li>
-								<li>KVKK & BDDK uygun DC kurgusu</li>
-								<li>2n+2 enerji ve 2n+1 iklimlendirme</li>
-								<li>7/24 üst düzey güvenlik</li>
-							</ul>
-							<div class="block-link btn-with-arrow"><span>Detayları İncele!</span><i
-									class="icon-circle-right"></i></div>
-							<div class="block-image animate fadeInRight" data-wow-delay="0.2s"></div>
-						</a>
+					<div class="col-sm-4">
+						<ul class="list-checked list-default">
+							<li>EMC VNX storage altyapısı</li>
+							<li>Min 3 adet Hot spare hdd</li>
+							<li>Hybrid SSD ve SAS disk</li>
+							<li>16G, 8G, 10G dual fiber HBA</li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<ul class="list-checked list-default">
+							<li>40G & 25G & 10G failover network uplink</li>
+							<li>2x-BGP Router, 2x-Core Router, 40G Switch</li>
+							<li>Leed Gold & Tier III datacenter</li>
+							<li>2 Tbps DOS-DDOS firewall (BGP Peer)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="features row">
+					<div class="col-md-4 col-sm-6">
+						<div class="feature feature-left">
+							<div class="feature-icon animate zoomIn"><i class="icon-system-task"></i></div>
+							<div class="feature-body">
+								<h3 class="h5">7/24 Sistem & Datacenter Monitoring</h3>
+									<p>Network, enerji, iklimlendirme, güvenlik ve diğer tüm sistemler 7/24 prensibi ile hem Earth Telekom personeli hemde Veri Merkezi personeli tarafından izlenmekte,tüm uyarılarda anında aksiyon alınmaktadır.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="feature feature-left">
+							<div class="feature-icon animate zoomIn"><i class="icon-open-in-browser"></i></div>
+							<div class="feature-body">
+								<h3 class="h5">Turkcell Ankara Temelli Verimerkezi</h3>
+									<p>30 MVA kurulu güç, 1 MVA yenilenebilir enerji üretimi, 44.150 metrekare kapalı alan, 12.000 metrekare beyaz alan, Leed Gold ve Tier III uluslararası sertifikasyonlar, 4750 kabinet, 62.000 metre fiber, 1.179 kamera, 40.000 sensör</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6">
+						<div class="feature feature-left">
+							<div class="feature-icon animate zoomIn"><i class="icon-ip-address"></i></div>
+								<div class="feature-body">
+									<h3 class="h5">Failover BGP Altyapısı</h3>
+										<p>Ip adresleri aktif-aktif bgp router cihazlarımız üzerinden yedekli fiziksel uplinkler ile anons edilmekte ve trafik en kısa güzergah prensibi ile sistemlerinize erişmektedir.</p>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<div class="page-section section-sla section-dark-blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-5">
+						<h2 class="section-title">%99.9 BGP SLA Garantisi</h2>
+						<p class="desc">VRRP üzerinde aktif-aktif çalışan BGP routerlar ile kesintisiz bgp failover sistemimiz en az iki router cihaz üzerinden ip adreslerimizi anons etmekte ve tüm internet erişimi en hızlı rotayı kullanarak verimerkezi ağımıza ulaşmaktadır. </p>
+						<div class="actions"> <a class="btn-with-arrow" href="#verimerkezleri"><span>Verimerkezlerini İncele</span> <i class="icon-circle-right"></i></a> </div>
+					</div>
+					<div class="col-md-6 col-sm-offset-1 hidden-xs">
+						<div class="section-image">
+							<div class="image image-sla">
+								<div class="circle-app animate zoomIn">
+									<p>%99.9 <span>SLA GARANTİSİ</span></p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -539,14 +588,14 @@
 					<div class="col-sm-12">
 
 						<a href="https://www.earth.com.tr" class="header-brand">
-							<img src="img/earthlogo.png" alt="Earth Telekom" style="height: 50px;" />
+							<img src="img/earth-logo.png" alt="Earth Telekom" style="height: 50px;" />
 						</a>
 					</div>
 					
 					<div class="col-sm-12" style="margin-top:100px; color:white; ">
 						<p>Earth Telekomünikasyon Bilişim İnternet ArGe Yazılım Hizmetleri Tic.Ltd.Şti</p>
-						<p>Adres: Körfez, No:188/3, 19 Mayıs Ünv. No:19, 55270 Atakum/Samsun</p>
-						<p>Telefon: (0362) 432 07 09</p>
+						<p>Adres: OMÜ Samsun Teknopark No:3, Atakum/Samsun</p>
+						<p>Telefon:(0362) 432 07 09</p>
 					</div>
 
 					</div>
@@ -554,43 +603,44 @@
 					<div class="col-sm-8">
 
 						<div class="col-sm-3">
-							<h6>SERVİSLER</h6>
+							<h6>Veri Merkezi</h6>
 							<ul>
-								<li><a href="rdp-gateway">RDP Gateway (Citrix)</a></li>
+								<li><a href="kabinet-kiralama">Kabinet Kiralama</a></li>
+								<li><a href="sunucu-barindirma">Sunucu Barındırma</a></li>
+								<li><a href="dedicated-server">Dedicated Server</a></li>
+								<li><a href="dedicated-cluster">Dedicated Cluster</a></li>
+								<li><a href="draas">Felaket Kurtarma</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<h6>Bulut Sunucu</h6>
+							<ul>
+								<li><a href="iaas">Cloud Server (IAAS)</a></li>
+								<li><a href="daas">Cloud Desktop (DAAS)</a></li>
+								<li><a href="draas">Disaster Recovery (DRAAS)</a></li>
+								<li><a href="vpnaas">Cloud VPN (VPNAAS)</a></li>
+								<li><a href="xaas">All Cloud Service (XAAS)</a></li>
+							</ul>
+						</div>
+						<div class="col-sm-3">
+							<h6>Servisler</h6>
+							<ul>
 								<li><a href="backup-replication">Backup & Replication</a></li>
 								<li><a href="file-server-storage">File Server Storage</a></li>
 								<li><a href="dos-ddos-firewall">Dos-DDOS Firewall</a></li>
 								<li><a href="waf">Web Aplication Firewall</a></li>
 								<li><a href="load-balancer">Application Load Balancer</a></li>
-								<li><a href="#">Hizmet Kapsamı</a></li>
-								<li><a href="#">Hizmet Şartları</a></li>
+								<li><a href="rdp-gateway">RDP Gateway (Citrix)</a></li>
 							</ul>
 						</div>
 						<div class="col-sm-3">
-							<h6>CLOUD SERVİSLER</h6>
+							<h6>Çözümler</h6>
 							<ul>
-								<li><a href="iaas">Cloud Server (IAAS)</a></li>
-								<li><a href="daas">Cloud Desktop (DAAS)</a></li>
-								<li><a href="draas">Cloud Disaster Recovery (DRAAS)</a></li>
-								<li><a href="vpnaas">Cloud VPN (VPNAAS)</a></li>
-								<li><a href="xaas">All Cloud Service (XAAS)</a></li>
-								<li><a href="base-cluster">Base Cluster</a></li>
-								<li><a href="dedicated-cluster">Dedicated Cluster</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-3">
-							<h6>Dedicated Server</h6>
-							<ul>
-								<li><a href="hybrid-dedicated">Hybrid Dedicated</a></li>
-								<li><a href="dedicated-server">Dedicated Server</a></li>
-								<li><a href="kurumsal-dedicated">Kurumsal Dedicated</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-3">
-							<h6>Co-Location</h6>
-							<ul>
-								<li><a href="sunucu-barindirma">Sunucu Barındırma</a></li>
-								<li><a href="kabinet-kiralama">Kabinet Kiralama</a></li>
+								<li><a href="#">Hotspot ve Loglama</a></li>
+								<li><a href="#">Yedekleme Çözümleri</a></li>
+								<li><a href="#">Outsource Yönetim</a></li>
+								<li><a href="#">Donanım Çözümleri</a></li>
+								<li><a href="#">Sistem Odası Çözümleri</a></li>
 							</ul>
 						</div>
 
@@ -621,7 +671,7 @@
 	</div>
 	<div class="footer-bt">
 		<div class="container">
-			<p>© 2022 EARTH TELEKOM. Tüm Hakları Saklıdır.</p>
+			<p>© 2023 EARTH TELEKOM. Tüm Hakları Saklıdır.</p>
 		</div>
 	</div>
 </div>

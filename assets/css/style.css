@@ -147,7 +147,7 @@ li.active .slide-group-icon{color:#295cc3;}
 .slider-nav li h6{margin-top:50px;text-align:center;}
 }
 @media (min-width:768px){.slider-nav,
-.page-intro-hero .subpage-nav{position:absolute;bottom:0;z-index:990;width:100%;}
+.page-intro-hero .subpage-nav{position:absolute;bottom:0;z-index:990;width:100%;background-color: #2d63d3}
 .slider-nav ul li{float:left;height:100%;width:20%;}
 .subpage-nav ul li{width:auto;}
 .slider-nav .slide-group-price{position:absolute;bottom:0;left:0;height:38px;}
@@ -200,7 +200,7 @@ li.active .slide-group-icon{color:#295cc3;}
 .page-header.shadow-nav, .page-header-xs.shadow-nav{position:fixed !important;}
 .header-navigation{float:right;padding:0;margin:0;list-style:none;}
 .header-navigation > li{position:initial;float:left;}
-.header-navigation > li > a:not(.btn){display:block;padding:10px 30px;margin-right:4px;color:#fff;font-size:14px;font-weight:700;line-height:50px;text-transform:uppercase;}
+.header-navigation > li > a:not(.btn){display:block;padding:10px 15px;margin-right:4px;color:#fff;font-size:14px;font-weight:700;line-height:50px;text-transform:uppercase;}
 .header-navigation > li > a > .fa{margin-left:10px;color:#b2ccff;}
 .header-navigation > li.hovered > a, .header-navigation > li.active > a, .header-navigation > li.open > a{background-color:#2554b3;}
 .header-navigation > li.menu-login.hovered > a{background-color:#b9992a;}
