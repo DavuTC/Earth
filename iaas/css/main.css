@@ -205,9 +205,7 @@ div.divider {
     line-height: 30px;
     font-size: 18px;
 }
-.wbox_header .wbox_right {
 
-}
 .wbox_header .wbox_right a {
     font-weight: normal;
 }
@@ -219,9 +217,7 @@ div.divider {
     border-bottom:none !important;
     margin:0px !important;
 }
-.wbox_content {
-   
-}
+
 
 .table {
     background:#fff;

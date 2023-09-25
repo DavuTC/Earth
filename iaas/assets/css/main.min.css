@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700italic,700);@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);@import url(https://fonts.googleapis.com/icon?family=Material+Icons);html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+body {
+    margin: 0
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin: 0
+    
+}
+
+body {
+    padding-top: 120px;
+    color: #4a5669;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Open Sans",sans-serif;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased
+}
+
+
+h1,h2,h3,h4,h5 {
+    font-family: Montserrat,sans-serif;
+    font-weight: normal
+}
+
+h1 {
+    font-size: 42px;
+    line-height: 52px
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 26px
+}
+
+p {
+    line-height: 28px
+}
+
+.icon-feature {
+    height: 64px;
+    line-height: 64px;
+    font-size: 64px;
+    color: #0098ef;
+    height: 80px;
+}
+
+.feature-box .feature-header {
+    position: relative;
+    overflow: hidden;
+    background-color: #e6e9ee;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    
+}
+
+.feature-box .feature-header .icon-feature,.feature-box .feature-header .icon-feature-large {
+    display: block;
+    padding: 20px 20;
+    text-align: center;
+}
+
+.feature-box .feature-content {
+    padding: 28px;
+    color: #4a5669;
+    background-color: #fff;
+    border: 2px solid #e6e9ee;
+    border-top-width: 0;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+}
+
+.column-row,#content>.content-row .content-header+.column-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: -30px
+}
+
+.column-row>.column-20,.column-row>.column-25,.column-row>.column-30,.column-row>.column-33,.column-row>.column-40,.column-row>.column-50,.column-row>.column-60,.column-row>.column-66,.column-row>.column-70,.column-row>.column-75,.column-row>.column-80,.column-row>.column-flex {
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+.column-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Kartları yatayda ortalar */
+  }
+  
+  .column-25 {
+    flex: 0 0 25%; /* Kartların genişliği, 4 sütunlu bir düzen için %25 */
+    padding: 10px; /* Kartlar arasındaki boşluk */
+    box-sizing: border-box; /* Padding'i hesaba kat */
+  }
+  
+  /* İsteğe bağlı olarak kartların mobil cihazlarda tam genişlik olmasını sağlayabilirsiniz */
+  @media (max-width: 768px) {
+    .column-25 {
+      flex: 0 0 100%;
+    }
+  }
+  
+
