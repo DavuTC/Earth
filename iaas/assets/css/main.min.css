@@ -4,7 +4,8 @@
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline
+    vertical-align: baseline;
+    
 }
 
 body {
@@ -69,8 +70,9 @@ p {
     line-height: 64px;
     font-size: 64px;
     color: #0098ef;
-    height: 80px;
+    
 }
+
 
 .feature-box .feature-header {
     position: relative;
@@ -79,12 +81,15 @@ p {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     
+    
 }
 
 .feature-box .feature-header .icon-feature,.feature-box .feature-header .icon-feature-large {
     display: block;
     padding: 20px 20;
     text-align: center;
+    
+    
 }
 
 .feature-box .feature-content {

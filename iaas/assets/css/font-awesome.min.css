@@ -98,6 +98,8 @@
     float: left
 }
 
+
+
 .fa.pull-left {
     margin-right: .3em
 }
@@ -114,43 +116,6 @@
 .fa-pulse {
     -webkit-animation: fa-spin 1s infinite steps(8);
     animation: fa-spin 1s infinite steps(8)
-}
-
-@-webkit-keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
-}
-
-@keyframes fa-spin {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg)
-    }
-
-    100% {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg)
-    }
-}
-
-
-
-
-
-
-
-
-
-
-:root .fa-rotate-90,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-flip-horizontal,:root .fa-flip-vertical {
-    filter: none
 }
 
 .fa-stack {
