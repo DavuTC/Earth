@@ -130,10 +130,7 @@ select {
 button,
 html input[type="button"],
 input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
+
 button[disabled],
 html input[disabled] {
   cursor: default;
@@ -157,12 +154,7 @@ input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
-input[type="search"] {
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  -webkit-appearance: textfield;
-}
+
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
@@ -311,9 +303,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.img-rounded {
 
-}
 .img-thumbnail {
   display: inline-block;
   width: 100% \9;
@@ -741,11 +731,7 @@ pre code {
   margin-left: -10px;
 }
 
-@media (min-width: 768px) {
-  .container {
-    /*width: 750px;*/
-  }
-}
+
 @media (min-width: 1300px) {
   .container {
     width: 1400px;
@@ -1756,9 +1742,7 @@ textarea.form-control {
   height: auto;
   min-height: 120px;
 }
-input[type="search"] {
-  -webkit-appearance: none;
-}
+
 input[type="date"],
 input[type="time"],
 input[type="datetime-local"],
@@ -3018,9 +3002,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li {
   float: left;
 }
-.nav-pills > li > a {
 
-}
 .nav-pills > li + li {
   margin-left: 2px;
 }
@@ -3849,9 +3831,7 @@ a.list-group-item.active > .badge,
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
-.container .jumbotron {
 
-}
 .jumbotron .container {
   max-width: 100%;
 }
@@ -4511,13 +4491,7 @@ a.list-group-item-danger.active:focus {
   filter: alpha(opacity=50);
   opacity: .5;
 }
-button.close {
-  -webkit-appearance: none;
-  padding: 0;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-}
+
 .modal-open {
   overflow: hidden;
 }
@@ -5465,20 +5439,7 @@ button.close {
     font-style: normal;
 }
 
-[class^="zmdi-"], [class*=" zmdi-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'zmdi' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
 .zmdi-trash:before {
     content: "\f154";
