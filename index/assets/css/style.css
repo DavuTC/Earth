@@ -1295,7 +1295,6 @@ a.block h6{margin-bottom:5px;}
 .styled.form-control{display:inline-block;width:auto;margin-bottom:10px;}
 .configtd .styled.form-control{margin-bottom:0;}
 .list-checked li{position:relative;padding:0 0 0 37px;}
-.list-checked > li:before{position:absolute;top:2px;left:0;display:block;color:#e9cc54;font-family:"icons";font-size:24px;font-weight:400;content:"\f13b";}
 .list-default{margin:0;padding:0;list-style:none;}
 .list-default li{padding-bottom:16px;}
 .list-condensed.list-default li{padding-bottom:8px;}
@@ -1346,9 +1345,9 @@ a.block h6{margin-bottom:5px;}
 .features.row [class*="col-"]{padding-left:15px;padding-right:15px;}
 .feature{margin-top:26px;text-align:center;}
 .page-section.features:last-child,
-.feature p{margin-bottom:0;}
+.feature p{margin-bottom:0;text-align: justify}
 .feature-left{text-align:left;}
-.feature-left .feature-icon{float:left;}
+.feature-left .feature-icon{text-align: center;}
 .features-row:after,
 .features-row:before,
 .feature-body:after,
