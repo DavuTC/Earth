@@ -80,6 +80,12 @@ p {
     background-color: #e6e9ee;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    height: 90px;
+    text-align:center; /* İkonu yatayda merkeze hizalar */
+    line-height: 120px; /* İkonun yüksekliği kadar dikeyde merkeze hizalar */
+    height: 80px; /* İkonun yüksekliği kadar alan oluşturur */
+    
+
     
     
 }
@@ -88,6 +94,7 @@ p {
     display: block;
     padding: 20px 20;
     text-align: center;
+    
     
     
 }
@@ -100,6 +107,8 @@ p {
     border-top-width: 0;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
+    height: 300px;
+    
     
 }
 
@@ -108,6 +117,7 @@ p {
     display: -ms-flexbox;
     display: flex;
     margin: -30px
+
 }
 
 .column-row>.column-20,.column-row>.column-25,.column-row>.column-30,.column-row>.column-33,.column-row>.column-40,.column-row>.column-50,.column-row>.column-60,.column-row>.column-66,.column-row>.column-70,.column-row>.column-75,.column-row>.column-80,.column-row>.column-flex {
