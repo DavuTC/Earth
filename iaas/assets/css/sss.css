@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+  
+  .sss-container {
+    margin: 0 auto;
+    padding: 4rem;
+    max-width: 48rem;
+  }
+  
+  .sss {
+    .sss-item {
+      border-bottom: 1px solid green;
+  
+      button[aria-expanded='true'] {
+        border-bottom: 1px solid blue;
+      }
+    }
+  
+    button {
+      position: relative;
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding: 1em 0;
+      color: gold;
+      font-size: 1.15rem;
+      font-weight: 400;
+      border: none;
+      background: none;
+      outline: none;
+  
+      &:hover,
+      &:focus {
+        cursor: pointer;
+        color: blue;
+      }
+  
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        width: 22px;
+        height: 22px;
+        border: 1px solid;
+        border-radius: 50%;
+        transform: translateY(-50%);
+      }
+  
+      .sss-title & {
+        padding-right: 1.5em;
+      }
+  
+      .icon {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        width: 22px;
+        height: 22px;
+        border: 1px solid;
+        border-radius: 50%;
+  
+        &::before,
+        &::after {
+          content: '';
+          display: block;
+          position: absolute;
+          background: currentColor;
+        }
+  
+        &::before {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 10px;
+          height: 2px;
+        }
+  
+        &::after {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 2px;
+          height: 10px;
+        }
+      }
+    }
+  
+    button[aria-expanded='true'] {
+      color: blue;
+  
+      .icon::after {
+        width: 0;
+      }
+    }
+  
+    + .sss-content {
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 200ms linear, max-height 200ms linear;
+      will-change: opacity, max-height;
+  
+      p {
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 2em 0;
+      }
+    }
+  }
+  
